@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>National Park</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg sticky-top border-bottom border-secondary" style="background-color:#EEEEEE;">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-4"><img class="img-fluid" src="/images/new logo.png" alt="" style="width: 100px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active ms-5 fs-6" id="home" aria-current="page" href="#slider">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active ms-5 fs-6" id="About" href="#images">GALLERY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active ms-5 fs-6" id="Cat" href="#cat">CATERGORIES</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle ms-5 fs-6" id="Cat" href="#cat" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              SITE
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#Gol">Chitral Gol National Park</a></li>
+              <li><a class="dropdown-item" href="#Ayub">Ayub National Park</a></li>
+              <li><a class="dropdown-item" href="#Kirthar">Kirthar National Park</a></li>
+              <li>
+              </li>
+            </ul>
+        </ul>
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active ms-5 fs-6" aria-current="page" href="login.html">LOG-IN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ms-5 fs-6" href="sign.html">SIGN-UP</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- slider -->
+  <section id="slider">
+    <div id="carouselExampleDark" class="carousel carousel-light slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="images/martin-olsen-rfyC-SJZ03A-unsplash.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="/images/uzuri-safaris-tanzania-GptgprGhjt0-unsplash.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/images/tobias-jelskov-8rN1nveQ4Bc-unsplash.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!-- images -->
+  <section id="images">
+    <h1 style="text-align: center; margin-top: 40px;" data-aos="fade-up" data-aos-duration="1s">GALLERY</h1>
+    <hr class="w-25 m-auto" data-aos="fade-up" data-aos-duration="1s"><br>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-md-2 col-lg-2 col-6" data-aos="fade-up" data-aos-duration="1s">
+          <img src="/images/alfonso-castro-HaGwCk2AD84-unsplash.jpg" class="images img-fluid img-thumbnail mb-4"
+            alt="...">
+          <img src="/images/daniel-vargas-c-ewKs54sw4-unsplash.jpg" class="images img-fluid img-thumbnail mb-4"
+            alt="...">
+          <img src="/images/shashank-hudkar-gRMnkPys2Ro-unsplash copy.jpg" class="images img-fluid img-thumbnail mb-4"
+            alt="...">
+        </div>
+        <div class="col-sm-6 col-md-2 col-lg-2 col-6" data-aos="zoom-out-down" data-aos-duration="1s">
+          <img src="/images/erick-martins-0ywtDhEUjVk-unsplash.jpg" class="images img-fluid img-thumbnail mb-4"
+            alt="...">
+          <img src="/images/frida-lannerstrom-IDO_a-dxrCY-unsplash.jpg" class="images img-fluid img-thumbnail mb-4"
+            alt="...">
+          <img src="/images/rob-schreckhise-8zdEgWg5JAA-unsplash.jpg" class="images img-fluid img-thumbnail mb-4"
+            alt="...">
+        </div>
+        <div class="col-sm-6 col-md-2 col-lg-2 col-6" data-aos="fade-up" data-aos-duration="1s">
+          <img src="/images/gary-bendig-Yu-qayee34c-unsplash.jpg" class="images img-fluid img-thumbnail mb-4" alt="...">
+          <img src="/images/jan-zikan-xHQZtDEm9Qo-unsplash.jpg" class="images img-fluid img-thumbnail mb-4" alt="...">
+          <img src="/images/rachel-labuda-Wovbi--lnaY-unsplash.jpg" class="images img-fluid img-thumbnail mb-4"
+            alt="...">
+        </div>
+        <div class="col-sm-6 col-md-2 col-lg-2 col-6" data-aos="zoom-out-down" data-aos-duration="1s">
+          <img src="/images/jonas-von-werne-wN6EybHR2x8-unsplash.jpg" class="images img-fluid img-thumbnail mb-4"
+            alt="...">
+          <img src="/images/jeremy-avery-hht33rAqHi8-unsplash.jpg" class="images img-fluid img-thumbnail mb-4"
+            alt="...">
+          <img src="/images/pexels-hsapir-1054655.jpg" class="images img-fluid img-thumbnail mb-4" alt="...">
+        </div>
+        <div class="col-sm-6 col-md-2 col-lg-2 col-6" data-aos="fade-up" data-aos-duration="1s">
+          <img src="/images/mark-basarab-y421kXlUOQk-unsplash.jpg" class="images img-fluid img-thumbnail mb-4"
+            alt="...">
+          <img src="/images/juliane-liebermann-WDSgXvDSpz8-unsplash.jpg" class="images img-fluid img-thumbnail mb-4"
+            alt="...">
+          <img src="/images/pexels-pixabay-46790.jpg" class="images img-fluid img-thumbnail mb-4" alt="...">
+        </div>
+        <div class="col-sm-6 col-md-2 col-lg-2 col-6" data-aos="zoom-out-down" data-aos-duration="1s">
+          <img src="/images/pete-nuij-Nl1xSowK5x4-unsplash.jpg" class="images img-fluid img-thumbnail mb-4" alt="...">
+          <img src="/images/miguel-miller-7EbVdrKBuBk-unsplash.jpg" class="images img-fluid img-thumbnail mb-4"
+            alt="...">
+          <img src="/images/natalia-slastnikova-6d2-KlBnxnE-unsplash.jpg" class="images img-fluid img-thumbnail mb-4"
+            alt="...">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Categories-->
+  <section id="cat" data-aos="fade-up" data-aos-duration="2s">
+    <div class="container">
+      <h1 style="text-align: center; margin-top: 20px">CATERGORIES</h1>
+      <hr class="w-25 m-auto"><br>
+      <div class="row">
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+          <a style="text-decoration: none;" href="parrot.html">
+            <div class="card mt-3">
+              <img src="/images/wallpaperflare.com_wallpaper.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="parrot-title text-center ms-5"
+                  style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                  <button class="button float-end" id="downloadButton"><i class='bx bxs-download'></i></button>
+                  Parrot
+                </h5>
+
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+          <a style="text-decoration: none;" href="seaturtle.html">
+            <div class="card mt-3">
+              <img src="/images/wallpaperflare.com_wallpaper (2).jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="parrot-title text-center ms-5"
+                  style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                  <button class="button float-end" id="downloadButton1"><i class='bx bxs-download'></i></button>
+                  SEA TURTLE
+                </h5>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+          <a style="text-decoration: none;" href="tiger.html">
+            <div class="card mt-3">
+              <img src="/images/wallpaperflare.com_wallpaper (1).jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="tiger-title text-center ms-5"
+                  style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                  <button class="button float-end" id="downloadButton2"><i class='bx bxs-download'></i></button>
+                  Tiger
+                </h5>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+          <a style="text-decoration: none;" href="heifer.html">
+            <div class="card mt-3">
+              <img src="/images/Heifer.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="tiger-title text-center ms-5"
+                  style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                  <button class="button float-end" id="downloadButton3"><i class='bx bxs-download'></i></button>
+                  Heifer
+                </h5>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+          <a style="text-decoration: none;" href="monkey.html">
+            <div class="card mt-3">
+              <img src="/images/monkey.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="tiger-title text-center ms-5"
+                  style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                  <button class="button float-end" id="downloadButton4"><i class='bx bxs-download'></i></button>
+                  Monkey
+                </h5>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+          <a style="text-decoration: none;" href="horse.html">
+            <div class="card mt-3">
+              <img src="/images/horse.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="tiger-title text-center ms-5"
+                  style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                  <button class="button float-end" id="downloadButton5"><i class='bx bxs-download'></i></button>
+                  Horse
+                </h5>
+              </div>
+            </div>
+          </a>
+        </div>
+  </section>
+  <!-- Site -->
+
+  <section id="Gol" data-aos="fade-up">
+    <h1 class="text-center mt-5">Chitral Gol National Park</h1>
+    <hr class="w-25 m-auto">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+          <img class="float-end img-fluid mt-5" src="/images/1080px-National_GOL_Park,_Chitral.jpg" alt=""
+            style=" width: 600px; height: 320px;">
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+          <p class="mt-5">Chitral Gol National Park (Urdu: چترال گول نیشنل پارک) is one of the National Parks
+            of Pakistan.
+            It is located in Lower Chitral District in Khyber-Pakhtunkhwa province of Pakistan beside the
+            Chitral River, at a distance of two hours drive from Chitral town. The park is also known as
+            Chitral National Park.</p>
+          <p>Up until 1983, Chitral Gol was considered to be the private property of the former Mehtar of
+            Chitral. The status of the park has been in dispute since and has become the issue of ongoing
+            litigation between heirs of the former Mehtar and the Government of Pakistan.</p>
+          <p> The annual rainfall in its region is estimated to be 462 ml (16.3 imp fl oz; 15.6 US fl oz). In
+            September, it rains more on the spectacular peaks surrounding the park. However, in November,
+            the rainfall is more in the valleys and on the lower peaks. There is also snowfall during the
+            winter season. The snow-covered white peaks enhance the beauty till June. The general weather is
+            cold and dry. The temperature ranges from −12.2 to 43.3 °C (10.0 to 109.9 °F).</p>
+        </div>
+        <iframe class="mt-5 float-end img-fluid"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29060.82506700482!2d71.67173233124929!3d35.89648819650384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38c4b320ea4a59bd%3A0x87087be0e33d7c4f!2sChitral%20Gol%20National%20Park!5e1!3m2!1sen!2s!4v1730122890603!5m2!1sen!2s"
+          style="border:0; height: 300px;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+  <section id="Ayub" data-aos="fade-up">
+    <h1 class="text-center mt-5">Ayub National Park</h1>
+    <hr class="w-25 m-auto">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+          <img class="float-end img-fluid mt-5" src="/images/Ayub_national_park_garden.jpg" alt=""
+            style=" width: 600px; height: 320px;">
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+          <p class="mt-5">Ayub National Park, commonly known as Ayub Park or, historically, Topi Rakh Park
+            (Rakh lit.
+            reserve in Potwari), is a national park located on the Grand Trunk Road, not far away from the
+            old presidency in Rawalpindi, Punjab, Pakistan.
+            The park was established before the creation of Pakistan and covers an area of 313 acres (127
+            ha). It was named after the former President of Pakistan Field Marshal Ayub Khan. It is the
+            largest park in the Islamabad–Rawalpindi metropolitan area, and is claimed to be one of the
+            largest in Asia.</p>
+          <p>The park was established during the British Raj as the Topi Rakh Park as a popular picnic spot.
+            In 1959, it was converted into a national park during the reign of Ayub Khan, with Rawalpindi
+            Cantonment Board tasked with its administration. The park's open air theater, the only one in
+            the then-capital Rawalpindi, used to host top cultural and social gatherings. However, the park
+            was neglected over the years, almost falling into disuse in the early 1990s.
+            In 2001, President Pervez Musharraf handed over its control to the Army Heritage Foundation,
+            which oversaw extensive development work there, establishing play areas, jogging tracks, and
+            lawns.</p>
+        </div>
+        <iframe class="mt-5 float-end img-fluid"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4529.6182798477175!2d73.08090560659262!3d33.57081836748318!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df9333e7d5253f%3A0x69ab3f96450f3d34!2sAyub%20National%20Park!5e1!3m2!1sen!2sus!4v1730279175795!5m2!1sen!2sus"
+          style="border:0; height: 300px;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+  <section id="Kirthar">
+    <h1 class="text-center mt-5" data-aos="fade-up">Kirthar National Park</h1>
+    <hr class="w-25 m-auto" data-aos="fade-up">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6 col-12" data-aos="fade-up">
+          <p class="mt-5" data-aos="fade-up"> The Kirthar National Park is situated in the Kirthar
+            Mountains in Jamshoro District
+            in Sindh,
+            Pakistan. It was established in 1974 and encompasses over 3,087 km2 (1,192 sq mi), making it the
+            third largest national park in Pakistan. Wildlife in the park comprises leopard, striped hyena,
+            Indian wolves, honey badger, urial, chinkara gazelles and rare Sindh ibex. Blackbuck are kept in
+            enclosures for a reintroduction project.</p>
+          <h4 data-aos="fade-up">Mammals:</h4>
+          <ul data-aos="fade-up">
+            <div class="dropdown">
+              <li>
+                <p><a href="https://en.wikipedia.org/wiki/Asiatic_wildcat">Asiatic wildcat</a>, Felis
+                  lybica
+                  ornata</p>
+              </li>
+              <div class="dropdown-content">
+                <a href="https://en.wikipedia.org/wiki/Asiatic_wildcat"><img class="img-fluid"
+                    src="/images/Felis_silvestris_ornata.jpg" alt="" width="300" height="200"></a>
+                <div class="desc">The Asiatic wildcat (Felis lybica ornata), also known as the Asian
+                  steppe wildcat and the Indian desert cat...<a
+                    href="https://en.wikipedia.org/wiki/Asiatic_wildcat"><b>Readmore</b></a>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="dropdown">
+              <li>
+                <p><a href="https://en.wikipedia.org/wiki/Caracal"><a href="">Caracal </a>, Caracal</p>
+              </li>
+              <div class="dropdown-content">
+                <a href="https://en.wikipedia.org/wiki/Caracal"><img class="img-fluid w-100"
+                    src="/images/Caracal001.jpg" width="300" height="200" alt=""></a>
+                <div class="desc">The caracal (Caracal caracal) is a medium-sized wild cat native to
+                  Africa, the Middle East, Central Asia....<a
+                    href="https://en.wikipedia.org/wiki/Caracal"><b>Readmore</b></a>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="dropdown">
+              <li>
+                <p><a href="https://en.wikipedia.org/wiki/Indian_wolf"><a
+                      href="https://en.wikipedia.org/wiki/Indian_wolf">Indian wolf</a>, Canis
+                    lupus pallipes</p>
+              </li>
+              <div class="dropdown-content">
+                <a href="https://en.wikipedia.org/wiki/Indian_wolf"><img class="img-fluid"
+                    src="/images/Indian_wolf_(Canis_lupus_pallipes)_-_cropped.jpg" alt=""
+                    style="width: 250px; height: 300px;"></a>
+                <div class="desc">The Indian wolf (Canis lupus pallipes) is a subspecies of gray wolf
+                  that ranges from Southwest Asia to the Indian subcontinent... <a
+                    href="https://en.wikipedia.org/wiki/Indian_wolf"><b>Readmore</b></a>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="dropdown">
+              <li>
+                <p><a href="https://en.wikipedia.org/wiki/Golden_jackal"><a
+                      href="https://en.wikipedia.org/wiki/Golden_jackal">Golden jackal</a>,
+                    Canis aureus persica</p>
+              </li>
+              <div class="dropdown-content">
+                <a href="https://en.wikipedia.org/wiki/Golden_jackal"><img class="img-fluid w-100"
+                    src="/images/Canis_aureus_syriacus_114837596.jpg" alt="" width="300" height="200"></a>
+                <div class="desc">The golden jackal (Canis aureus), also called the common jackal, is a
+                  wolf-like canid that is native to Eurasia....<a
+                    href="https://en.wikipedia.org/wiki/Golden_jackal"><b>Readmore</b></a>
+                </div>
+              </div>
+            </div>
+          </ul>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+          <img class="float-end img-fluid mt-5" data-aos="fade-up" src="/images/Kirthar_park.jpg" alt=""
+            style=" width: 600px; height: 330px;">
+        </div>
+        <iframe class="mt-5 float-end img-fluid" data-aos="fade-up"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2991.487883305578!2d67.52059637444341!3d25.69106851152186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x394b4f048eb7aad1%3A0xa48e1eddb3545227!2sKirthar%20National%20Park!5e1!3m2!1sen!2s!4v1730281276289!5m2!1sen!2s"
+          style="border:0; height: 300px;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <section>
+    <footer class="mt-5 border-top border-secondary-subtle" style="background-color:#EEEEEE;">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-3 col-lg-3 col-12 mt-5">
+            <center>
+              <a><img class="img-fluid" src="/images/new logo.png" alt="" style="width: 300px;"></a>
+            </center>
+
+          </div>
+          <div class="col-sm-12 col-md-3 col-lg-3 col-12">
+            <center>
+              <h4 class="mt-3">About us</h4>
+              <hr class="w-300">
+              <p>Welcome to **The National Park**! We’re dedicated to exploring and preserving the beauty of
+                national parks. </p>
+              <p>you’re planning your next adventure or seeking inspiration, we’re here to
+                help you connect with nature and protect these amazing places for generations to come.</p>
+            </center>
+          </div>
+          <div class="col-sm-12 col-md-3 col-lg-3 col-12 ">
+            <center>
+              <h4 class="mt-3">Contact us</h4>
+              <hr class="w-300">
+              <p>If you have Any Problem or query feel free to Contact us</p>
+              <p>Email : pakistannationalpark@gmail.com</p>
+              <p>Ph : <a href="">+92 340-3064415</a></p>
+              <a href="https://www.facebook.com" target="_blank"><i class='bx bxl-facebook-square'></i></a>
+              <a class="bx1" href="https://www.instagram.com" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+              <a class="anchor" href="https://www.twitch.tv/" target="_blank"><i class='bx bxl-twitch'></i></a>
+            </center>
+          </div>
+          <div class="col-sm-12 col-md-3 col-lg-3 col-12 ">
+            <center>
+              <h4 class="mt-3 ">Links</h4>
+              <hr class="w-300">
+              <div class="conta">
+                <a href="index.html" class="anchor">HOME</a>
+                <a href="index.html#images" class="anchor mt-2">GALLERY</a>
+                <a href="index.html#cat" class="anchor mt-2">CATERGORIES</a>
+                <a href="index.html#Gol" class="anchor mt-2">SITE</a>
+                <a href="login.html" class="anchor mt-2">LOG-IN</a>
+            </center>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </footer>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+  </script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="/js/index.js"></script>
+</body>
+
+</html>
