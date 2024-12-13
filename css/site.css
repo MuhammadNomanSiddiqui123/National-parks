@@ -1,0 +1,30 @@
+nav-item{
+    list-style-type: none;
+    display: flex;
+}
+.edw{
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    height: 100vh;
+}
+*{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+#Cat:hover{border: solid; border-color: black; border-width: 1px; border-radius: 5px; background-color: black; color: white;}
+#home:hover{border: solid; border-color: black; border-width: 1px; border-radius: 5px; background-color: black; color: white;}
+#About:hover{border: solid; border-color: black; border-width: 1px; border-radius: 5px; background-color: black; color: white;}
+.anchor{
+    color: black;
+}
+.conta{
+    display: flex; flex-direction:column
+}
+.bx1{
+    color: #c05f5f;
+}
+a{
+    text-decoration: none;
+}
+ a:hover{
+    text-decoration: underline;
+}
